@@ -15,7 +15,7 @@ $ php composer.phar require gkocakaya/parse-bundle *
     {
         $bundles = array(
             // ...
-            new gkocakaya\ParseSdkBundle\ParseSdkBundle(),
+            new gkocakaya\ParseSdkBundle\GkocakayaParseSdkBundle(),
 
         );
     }
@@ -26,10 +26,10 @@ Parse.com
 
 	# app/config/config.yml
 
-	pars_sdk:
-    	app_id: APPLICATION_ID
-    	rest_key: REST_KEY
-    	master_key: MASTER_KEY
+	gkocakaya_parse_sdk:
+		    	app_id: APPLICATION_ID
+		    	rest_key: REST_KEY
+		    	master_key: MASTER_KEY
 
 # Usage
 
