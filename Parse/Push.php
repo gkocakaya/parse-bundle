@@ -9,25 +9,6 @@ use Parse\ParseQuery;
 
 class Push extends Parse
 {
-    protected $appId;
-    protected $restKey;
-    protected $masterKey;
-
-    /**
-     * Initialize Push with needed Parse keys
-     *
-     * @param $appId
-     * @param $restKey
-     * @param $masterKey
-     */
-    public function __construct($appId, $restKey, $masterKey)
-    {
-        $this->appId = $appId;
-        $this->restKey = $restKey;
-        $this->masterKey = $masterKey;
-
-        ParseClient::initialize($appId, $restKey, $masterKey);
-    }
 
     /**
      * @param $data

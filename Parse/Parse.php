@@ -3,9 +3,12 @@
 namespace Gkocakaya\ParseSdkBundle\Parse;
 
 use Parse\ParseInstallation;
+use Parse\ParseClient;
+use Parse\ParseQuery;
 
-class Parse
+class Parse extends Client
 {
+
     /**
      * Create and return a Parse Query
      *
