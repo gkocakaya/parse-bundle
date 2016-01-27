@@ -7,7 +7,7 @@ composer install
 
     $ php composer.phar require gkocakaya/parse-bundle *
 
- <?php
+
     // app/AppKernel.php
 
     public function registerBundles()
