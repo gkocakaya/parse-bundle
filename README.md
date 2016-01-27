@@ -5,7 +5,8 @@ The Parse Symfony2 Bundle https://parse.com/products/php
 
 composer install
 
-    $ php composer.phar require gkocakaya/parse-bundle *
+   php composer.phar require gkocakaya/parse-bundle *
+
 
 
     // app/AppKernel.php
