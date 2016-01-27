@@ -1,0 +1,22 @@
+{
+  "name": "gkocakaya/ParseBundle",
+  "description": "Symfony bundle to provide parse-php-sdk cliend as a Symfony service (https://parse.com/products/php)",
+  "keywords": ["parse.com", "symfony","parsebundle","push"],
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "require": {
+    "ParsePlatform/parse-php-sdk": "1.1.10"
+  },
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Gökhan KOCAKAYA",
+      "email": "gokhan366@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": { "Parse\\SdkBundle": "" }
+  },
+  "target-dir": "Parse/SdkBundle"
+
+}
