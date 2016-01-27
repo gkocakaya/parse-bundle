@@ -1,7 +1,7 @@
 # ParseBundle
 The Parse Symfony2 Bundle https://parse.com/products/php
 
-# Installion
+# Installation
 
 composer install
 
