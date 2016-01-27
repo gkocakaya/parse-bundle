@@ -1,0 +1,7 @@
+services:
+    parse.sdk.push:
+        class: Parse\SdkBundle\Parse\Push
+        arguments:
+            - %parse_sdk.app_id%
+            - %parse_sdk.rest_key%
+            - %parse_sdk.master_key%
