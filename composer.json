@@ -1,5 +1,5 @@
 {
-  "name": "gkocakaya/ParseBundle",
+  "name": "gkocakaya/parse-bundle",
   "description": "Symfony bundle to provide parse-php-sdk cliend as a Symfony service (https://parse.com/products/php)",
   "keywords": ["parse.com", "symfony","parsebundle","push"],
   "license": "MIT",
