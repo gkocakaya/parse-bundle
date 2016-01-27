@@ -1,6 +1,6 @@
 <?php
 
-namespace Parse\SdkBundle\DependencyInjection;
+namespace Gkocakaya\ParseSdkBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

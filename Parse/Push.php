@@ -1,6 +1,6 @@
 <?php
 
-namespace Parse\SdkBundle\Parse;
+namespace Gkocakaya\ParseSdkBundle\Parse;
 
 use Parse\ParseClient;
 use Parse\ParseException;

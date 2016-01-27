@@ -15,8 +15,8 @@
     }
   ],
   "autoload": {
-    "psr-0": { "Parse\\SdkBundle": "" }
+    "psr-0": { "Gkocakaya\\ParseSdkBundle": "" }
   },
-  "target-dir": "Parse/SdkBundle"
+  "target-dir": "Gkocakaya/ParseSdkBundle"
 
 }
