@@ -1,6 +1,6 @@
 services:
     parse.sdk.push:
-        class: Parse\SdkBundle\Parse\Push
+        class: Gkocakaya\ParseSdkBundle\Parse\Push
         arguments:
             - %gkocakaya_parse_sdk.app_id%
             - %gkocakaya_parse_sdk.rest_key%
