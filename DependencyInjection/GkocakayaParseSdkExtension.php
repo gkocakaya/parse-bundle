@@ -13,7 +13,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class ParseSdkExtension extends Extension
+class GkocakayaParseSdkExtension extends Extension
 {
     /**
      * {@inheritDoc}
@@ -26,8 +26,8 @@ class ParseSdkExtension extends Extension
         $loader = new YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
 
-        $container->setParameter('parse_sdk.app_id', $config['parse_sdk_app_id']);
-        $container->setParameter('parse_sdk.rest_key', $config['parse_sdk_rest_key']);
-        $container->setParameter('parse_sdk.master_key', $config['parse_sdk_master_key']);
+        $container->setParameter('gkocakaya_parse_sdk.app_id', $config['app_id']);
+        $container->setParameter('gkocakaya_parse_sdk.rest_key', $config['rest_key']);
+        $container->setParameter('gkocakaya_parse_sdk.master_key', $config['master_key']);
     }
 }
