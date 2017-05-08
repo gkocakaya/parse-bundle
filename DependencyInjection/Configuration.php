@@ -25,6 +25,7 @@ class Configuration implements ConfigurationInterface
             ->scalarNode('app_id')->isRequired()->end()
             ->scalarNode('rest_key')->isRequired()->end()
             ->scalarNode('master_key')->isRequired()->end()
+            ->scalarNode('server')->isRequired()->end()
             ->end()
             ->end();
 
