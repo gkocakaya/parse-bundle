@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "symfony-bundle",
   "require": {
-    "parse/php-sdk": "1.1.*"
+      "parse/php-sdk" : "1.2.*"
   },
   "minimum-stability": "dev",
   "authors": [
