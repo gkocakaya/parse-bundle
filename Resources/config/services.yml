@@ -5,3 +5,4 @@ services:
             - %gkocakaya_parse_sdk.app_id%
             - %gkocakaya_parse_sdk.rest_key%
             - %gkocakaya_parse_sdk.master_key%
+            - %gkocakaya_parse_sdk.server%
