@@ -29,5 +29,6 @@ class GkocakayaParseSdkExtension extends Extension
         $container->setParameter('gkocakaya_parse_sdk.app_id', $config['app_id']);
         $container->setParameter('gkocakaya_parse_sdk.rest_key', $config['rest_key']);
         $container->setParameter('gkocakaya_parse_sdk.master_key', $config['master_key']);
+        $container->setParameter('gkocakaya_parse_sdk.server', $config['server']);
     }
 }
